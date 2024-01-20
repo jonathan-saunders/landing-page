@@ -1,11 +1,52 @@
 #div1 {
-    height: 22vh;
+    height: 25vh;
     width: 100%;
     border: 1px solid black;
     background-color: #1f2937;
-    display: inline-flex;
     color: white;
     flex-direction: column;
+}
+
+.div1content {
+   /* border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+}
+
+.topcontent {
+   /* border: 1px solid black;*/
+    width: 40%;
+}
+
+.topcontent h1 {
+    margin-bottom: -0.3em;
+}
+
+.topcontent p {
+    margin-bottom: 1%;
+}
+
+.topcontent button {
+    border-radius: 6px;
+    color: white;
+    background-color: hsl(214, 100%, 50%);
+    font-weight: bold;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+
+}
+
+.topimg {
+    /*border: 1px solid black;*/
+    background-color: hsla(217, 10%, 66%, 0.384);
+    width: 40%;
+}
+
+.topimg p {
+    text-align: center;
+    padding: 50px 0;
 }
 
 #logo {
