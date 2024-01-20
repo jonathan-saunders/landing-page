@@ -1,9 +1,10 @@
 #div1 {
     height: 25vh;
     width: 100%;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     background-color: #1f2937;
     color: white;
+    display: flex;
     flex-direction: column;
 }
 
@@ -63,7 +64,48 @@
     height: 22vh;
     width: 100%;
     border:1px solid black;
+}
 
+#div2 h1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+}
+
+.div2content {
+    display: flex;
+    border: 1px solid black;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    justify-content: space-evenly;
+}
+
+.box {
+    width: 75px;
+    height: 75px;
+    font-size: 2em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#box1 {
+    /*background-color: hsl(0, 100%, 70%);*/
+    border: 2px solid hsl(219, 100%, 50%);
+}
+
+#box2 {
+    /*background-color: hsl(54, 100%, 70%);*/
+    border: 2px solid hsl(219, 100%, 50%);
+}
+
+#box3 {
+    /*background-color: hsl(118, 100%, 70%);*/
+    border: 2px solid hsl(219, 100%, 50%);
+}
+
+#box4 {
+    /*background-color: hsl(184, 100%, 70%);*/
+    border: 2px solid hsl(219, 100%, 50%);
 }
 
 #div3 {
