@@ -61,7 +61,7 @@
 }
 
 #div2 {
-    height: 22vh;
+    height: 26vh;
     width: 100%;
     border:1px solid black;
 }
@@ -74,10 +74,19 @@
 
 .div2content {
     display: flex;
-    border: 1px solid black;
+  /*  border: 1px solid black;*/
     margin-left: 15vw;
     margin-right: 15vw;
     justify-content: space-evenly;
+}
+
+.div2subtext {
+    display: flex;
+   /* border: 1px solid black;*/
+    margin-left: 15vw;
+    margin-right: 15vw;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
 .box {
