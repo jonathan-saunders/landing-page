@@ -63,7 +63,7 @@
 #div2 {
     height: 26vh;
     width: 100%;
-    border:1px solid black;
+   /* border:1px solid black;*/
 }
 
 #div2 h1 {
@@ -121,7 +121,7 @@
 #div3 {
     height: 22vh;
     width: 100%;
-    border: 1px solid black;
+ /*   border: 1px solid black;*/
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
@@ -133,18 +133,20 @@
     font-style: italic;
     font-weight: 100;
     color: #1F2937;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 #div3 h3 {
     text-align: right;
-    margin-right: 22px;
+    margin-right: 55px;
     color: #1F2937;
 }
 
 #div4 {
     height: 22vh;
     width: 100%;
-    border: 1px solid black;
+   /* border: 1px solid black;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,6 +188,13 @@
     border: 1px solid black;
     background-color: #1f2937;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer p {
+    margin-bottom: 27px;
 }
 
 .topnav {
