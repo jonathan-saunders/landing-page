@@ -30,7 +30,7 @@
 .topcontent button {
     border-radius: 6px;
     color: white;
-    background-color: hsl(214, 100%, 50%);
+    background-color: #3882F6;
     font-weight: bold;
     padding: 5px 15px;
     border: none;
@@ -100,22 +100,22 @@
 
 #box1 {
     /*background-color: hsl(0, 100%, 70%);*/
-    border: 2px solid hsl(219, 100%, 50%);
+    border: 2px solid #3882F6;
 }
 
 #box2 {
     /*background-color: hsl(54, 100%, 70%);*/
-    border: 2px solid hsl(219, 100%, 50%);
+    border: 2px solid #3882F6;
 }
 
 #box3 {
     /*background-color: hsl(118, 100%, 70%);*/
-    border: 2px solid hsl(219, 100%, 50%);
+    border: 2px solid #3882F6;
 }
 
 #box4 {
     /*background-color: hsl(184, 100%, 70%);*/
-    border: 2px solid hsl(219, 100%, 50%);
+    border: 2px solid #3882F6;
 }
 
 #div3 {
@@ -145,6 +145,39 @@
     height: 22vh;
     width: 100%;
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calltoaction {
+    border-radius: 6px;
+    height: 10vh;
+    width: 75vw;
+    background-color: #3882F6;
+    display: flex;
+}
+
+.calltoaction p {
+    text-align: justify; 
+    margin-left: 100px;
+    margin-top: 23px;
+    color: white;
+}
+
+.calltoaction button {
+    height: 30%;
+    align-self: center;
+    margin-left: 65px;
+    border-radius: 6px;
+    border-color: white;
+    border: 2px solid;
+    color: white;
+    background-color: #3882F6;
+    font-weight: bold;
+    padding: 5px 15px;
+    cursor: pointer;
+    opacity: 0.9;
 }
 
 #footer{
